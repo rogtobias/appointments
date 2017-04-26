@@ -6,13 +6,13 @@ $(document).ready(function() {
   var startTime = $("input#startTime").val();
   var endTime = $("input#endTime").val();
 
-  $("#userName").text(userName);
-  $("#description").text(description);
-  $("#date").text(date);
-  $("#startTime").text(startTime);
-  $("#endTime").text(endTime);
+  $(".userName").text(userName);
+  $(".description").text(description);
+  $(".date").text(date);
+  $(".startTime").text(startTime);
+  $(".endTime").text(endTime);
 
-  $(".output").text(<a href ="confirmation.html">);
+  $(".output").show();
 
   event.preventDefault();
   });
