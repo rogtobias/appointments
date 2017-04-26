@@ -6,11 +6,13 @@ $(document).ready(function() {
   var startTime = $("input#startTime").val();
   var endTime = $("input#endTime").val();
 
-  var confirm = $
+  $("#userName").text(userName);
+  $("#description").text(description);
+  $("#date").text(date);
+  $("#startTime").text(startTime);
+  $("#endTime").text(endTime);
 
-
-  $("#toYell").text(confirm);
-
+  $(".output").text(<a href ="confirmation.html">);
 
   event.preventDefault();
   });
